@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Rubik|Fauna+One|Contrail+One|Iceberg|Rajdhani' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Antic+Slab:400,700,400italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Maven+Pro|Quicksand|Amatic+SC|Electrolize|Cabin+Sketch|Quantico|Finger+Paint|Iceland|Megrim|Exo+2|Julius+Sans+One|Bubbler+One|Nova+Cut' rel='stylesheet' type='text/css'>
+    <title>Fractal's Personal Website (Bootstrap Test)</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <style>
+a:hover
+{
+ color: rgb(54, 54, 54); 
+ text-decoration: none;
+}
+    
+a
+{
+color: rgb(255, 255, 255); 
+transition: 0.3s;
+text-decoration: none;
+}
+    
+  body {
+      -webkit-animation-timing-function: ease;
+-webkit-animation-name: fade; /* Chrome, Safari, Opera */
+-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+-webkit-animation-iteration-count: once; 
+      position: relative; 
+  }
+  
+ @-webkit-keyframes fade {
+0%{opacity:0;}
+20% {opacity:0;}
+100% {opacity:1;}
+ 
+} 
+
+.navbar 
+{
+top: -40px;
+transition: 0.4s;
+}
+
+.navbar:hover 
+{
+top:0px;    
+}
+
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;font-family: 'Rubik', sans-serif; font-size: 15px;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;font-family: 'Rajdhani', sans-serif; font-size: 18px;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800; font-family: 'Rubik', sans-serif;}
+  
+  </style>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div id="scroll">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" style="font-family: 'Exo 2', sans-serif; ">Fractal's Web Page</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1" style="font-family: 'Rubik', sans-serif;">Welcome</a></li>
+          <li><a href="#section2"style="font-family: 'Rubik', sans-serif;">About me</a></li>
+          <li style="font-family: 'Rubik', sans-serif;"><a href="#section3">My projects</a></li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+</div>
+<div id="section1" class="container-fluid">
+  <h1>Welcome</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et tortor interdum, maximus enim nec, dictum ipsum. Cras nec lorem sit amet velit feugiat ornare. Pellentesque ligula elit, consectetur ut ante nec, sodales suscipit mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales mattis purus ac pulvinar. Mauris finibus magna orci, sit amet scelerisque nisi tempor eget. Quisque nulla tortor, varius a faucibus in, laoreet vel turpis. Ut laoreet ligula in cursus accumsan. Integer sollicitudin, lorem at condimentum consectetur, urna lorem fringilla massa, vitae feugiat ligula sem sed dolor. Ut sodales convallis nisl, id dignissim mauris maximus eget. Phasellus eu est tortor.</p>
+  
+</div>
+<div id="section2" class="container-fluid">
+  <h1>About me</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et tortor interdum, maximus enim nec, dictum ipsum. Cras nec lorem sit amet velit feugiat ornare. Pellentesque ligula elit, consectetur ut ante nec, sodales suscipit mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales mattis purus ac pulvinar. Mauris finibus magna orci, sit amet scelerisque nisi tempor eget. Quisque nulla tortor, varius a faucibus in, laoreet vel turpis. Ut laoreet ligula in cursus accumsan. Integer sollicitudin, lorem at condimentum consectetur, urna lorem fringilla massa, vitae feugiat ligula sem sed dolor. Ut sodales convallis nisl, id dignissim mauris maximus eget. Phasellus eu est tortor.</p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>My programs</h1>
+  <p>Here's a small collection of my older work. Note that they may not be as good because they don't use bootstrap which makes things look a lot better.</p>
+  <br>
+   <h3>Some of my work</h3>
+  <ul class="nav nav-pills">
+    
+    <li><a href="https://www.khanacademy.org/computer-programming/fractal-designs/4948317699178496">Fractal Designs</a></li>
+    <li><a href="https://www.khanacademy.org/computer-programming/web-devs-official-home-page/5135421848813568">Blog Test</a></li>
+    
+  </ul> 
+  
+</div>
+
+
+
+</body>
+</html>
